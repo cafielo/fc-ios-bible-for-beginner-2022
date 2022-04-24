@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		943BB5792815334F005A1B6E /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943BB5782815334F005A1B6E /* ChatListViewController.swift */; };
+		943BB57B28153A08005A1B6E /* ChatListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943BB57A28153A08005A1B6E /* ChatListCollectionViewCell.swift */; };
 		947AAB9E281045C700357C53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AAB9D281045C700357C53 /* AppDelegate.swift */; };
 		947AABA0281045C700357C53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AAB9F281045C700357C53 /* SceneDelegate.swift */; };
 		947AABA5281045C700357C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947AABA3281045C700357C53 /* Main.storyboard */; };
@@ -15,8 +17,6 @@
 		947AABB5281045C800357C53 /* ChatListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AABB4281045C800357C53 /* ChatListTests.swift */; };
 		947AABBF281045C800357C53 /* ChatListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AABBE281045C800357C53 /* ChatListUITests.swift */; };
 		947AABC1281045C800357C53 /* ChatListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AABC0281045C800357C53 /* ChatListUITestsLaunchTests.swift */; };
-		947AABCE281045DF00357C53 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AABCD281045DF00357C53 /* ChatListViewController.swift */; };
-		947AABD028104C2B00357C53 /* ChatListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AABCF28104C2B00357C53 /* ChatListCollectionViewCell.swift */; };
 		947AABD22810507F00357C53 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AABD12810507F00357C53 /* Chat.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		943BB5782815334F005A1B6E /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		943BB57A28153A08005A1B6E /* ChatListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCollectionViewCell.swift; sourceTree = "<group>"; };
 		947AAB9A281045C700357C53 /* ChatList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		947AAB9D281045C700357C53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		947AAB9F281045C700357C53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,8 +52,6 @@
 		947AABBA281045C800357C53 /* ChatListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947AABBE281045C800357C53 /* ChatListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListUITests.swift; sourceTree = "<group>"; };
 		947AABC0281045C800357C53 /* ChatListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		947AABCD281045DF00357C53 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
-		947AABCF28104C2B00357C53 /* ChatListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCollectionViewCell.swift; sourceTree = "<group>"; };
 		947AABD12810507F00357C53 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,9 +105,9 @@
 			children = (
 				947AAB9D281045C700357C53 /* AppDelegate.swift */,
 				947AAB9F281045C700357C53 /* SceneDelegate.swift */,
-				947AABCD281045DF00357C53 /* ChatListViewController.swift */,
 				947AABD12810507F00357C53 /* Chat.swift */,
-				947AABCF28104C2B00357C53 /* ChatListCollectionViewCell.swift */,
+				943BB5782815334F005A1B6E /* ChatListViewController.swift */,
+				943BB57A28153A08005A1B6E /* ChatListCollectionViewCell.swift */,
 				947AABA3281045C700357C53 /* Main.storyboard */,
 				947AABA6281045C800357C53 /* Assets.xcassets */,
 				947AABA8281045C800357C53 /* LaunchScreen.storyboard */,
@@ -264,10 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				947AABD028104C2B00357C53 /* ChatListCollectionViewCell.swift in Sources */,
+				943BB57B28153A08005A1B6E /* ChatListCollectionViewCell.swift in Sources */,
 				947AAB9E281045C700357C53 /* AppDelegate.swift in Sources */,
-				947AABCE281045DF00357C53 /* ChatListViewController.swift in Sources */,
 				947AABD22810507F00357C53 /* Chat.swift in Sources */,
+				943BB5792815334F005A1B6E /* ChatListViewController.swift in Sources */,
 				947AABA0281045C700357C53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
