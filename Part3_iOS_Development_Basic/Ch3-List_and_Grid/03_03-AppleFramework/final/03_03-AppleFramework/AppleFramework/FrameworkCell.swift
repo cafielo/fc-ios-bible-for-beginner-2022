@@ -2,7 +2,7 @@
 //  FrameworkCell.swift
 //  AppleFramework
 //
-//  Created by joonwon lee on 2022/04/22.
+//  Created by joonwon lee on 2022/04/24.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class FrameworkCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         nameLabel.numberOfLines = 1
-        nameLabel.adjustsFontSizeToFitWidth = true
+        nameLabel.adjustsFontSizeToFitWidth = true 
     }
     
     func configure(_ framework: AppleFramework) {
