@@ -17,8 +17,6 @@
 		948CD2502812F01C003DC0C4 /* InstaSearchViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD24F2812F01C003DC0C4 /* InstaSearchViewUITestsLaunchTests.swift */; };
 		948CD25D2812F32C003DC0C4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD25C2812F32C003DC0C4 /* SearchViewController.swift */; };
 		948CD25F2812F521003DC0C4 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD25E2812F521003DC0C4 /* ResultCell.swift */; };
-		94D1715F281C379700BCEF9E /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D1715E281C379700BCEF9E /* NewsFeedViewController.swift */; };
-		94D17161281C37E300BCEF9E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D17160281C37E300BCEF9E /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +51,6 @@
 		948CD24F2812F01C003DC0C4 /* InstaSearchViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSearchViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		948CD25C2812F32C003DC0C4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		948CD25E2812F521003DC0C4 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
-		94D1715E281C379700BCEF9E /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
-		94D17160281C37E300BCEF9E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +105,6 @@
 				948CD22E2812F01B003DC0C4 /* SceneDelegate.swift */,
 				948CD25C2812F32C003DC0C4 /* SearchViewController.swift */,
 				948CD25E2812F521003DC0C4 /* ResultCell.swift */,
-				94D1715E281C379700BCEF9E /* NewsFeedViewController.swift */,
-				94D17160281C37E300BCEF9E /* FeedCell.swift */,
 				948CD2322812F01B003DC0C4 /* Main.storyboard */,
 				948CD2352812F01B003DC0C4 /* Assets.xcassets */,
 				948CD2372812F01B003DC0C4 /* LaunchScreen.storyboard */,
@@ -271,8 +265,6 @@
 				948CD25D2812F32C003DC0C4 /* SearchViewController.swift in Sources */,
 				948CD25F2812F521003DC0C4 /* ResultCell.swift in Sources */,
 				948CD22F2812F01B003DC0C4 /* SceneDelegate.swift in Sources */,
-				94D1715F281C379700BCEF9E /* NewsFeedViewController.swift in Sources */,
-				94D17161281C37E300BCEF9E /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

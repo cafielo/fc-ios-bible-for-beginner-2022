@@ -15,8 +15,6 @@
 		948CD2442812F01C003DC0C4 /* InstaSearchViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD2432812F01C003DC0C4 /* InstaSearchViewTests.swift */; };
 		948CD24E2812F01C003DC0C4 /* InstaSearchViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD24D2812F01C003DC0C4 /* InstaSearchViewUITests.swift */; };
 		948CD2502812F01C003DC0C4 /* InstaSearchViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD24F2812F01C003DC0C4 /* InstaSearchViewUITestsLaunchTests.swift */; };
-		94C3A93A28199289001371C7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C3A93928199289001371C7 /* SearchViewController.swift */; };
-		94C3A93C28199394001371C7 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C3A93B28199394001371C7 /* ResultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +47,6 @@
 		948CD2492812F01C003DC0C4 /* InstaSearchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaSearchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		948CD24D2812F01C003DC0C4 /* InstaSearchViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSearchViewUITests.swift; sourceTree = "<group>"; };
 		948CD24F2812F01C003DC0C4 /* InstaSearchViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSearchViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		94C3A93928199289001371C7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		94C3A93B28199394001371C7 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +99,6 @@
 			children = (
 				948CD22C2812F01B003DC0C4 /* AppDelegate.swift */,
 				948CD22E2812F01B003DC0C4 /* SceneDelegate.swift */,
-				94C3A93928199289001371C7 /* SearchViewController.swift */,
-				94C3A93B28199394001371C7 /* ResultCell.swift */,
 				948CD2322812F01B003DC0C4 /* Main.storyboard */,
 				948CD2352812F01B003DC0C4 /* Assets.xcassets */,
 				948CD2372812F01B003DC0C4 /* LaunchScreen.storyboard */,
@@ -261,9 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94C3A93A28199289001371C7 /* SearchViewController.swift in Sources */,
 				948CD22D2812F01B003DC0C4 /* AppDelegate.swift in Sources */,
-				94C3A93C28199394001371C7 /* ResultCell.swift in Sources */,
 				948CD22F2812F01B003DC0C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
