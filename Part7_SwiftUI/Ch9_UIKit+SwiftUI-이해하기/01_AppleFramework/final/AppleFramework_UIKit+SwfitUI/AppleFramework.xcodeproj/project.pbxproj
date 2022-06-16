@@ -11,7 +11,6 @@
 		9411D052285A1EED00A6A1A4 /* FrameworkDetailViewModelSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411D04F285A1EED00A6A1A4 /* FrameworkDetailViewModelSwiftUI.swift */; };
 		9411D053285A1EED00A6A1A4 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411D050285A1EED00A6A1A4 /* SafariView.swift */; };
 		941506032843B5A0000B38EF /* FrameworkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941506022843B5A0000B38EF /* FrameworkListViewModel.swift */; };
-		941506052843B5AA000B38EF /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941506042843B5AA000B38EF /* FrameworkDetailViewModel.swift */; };
 		9487E77F2815676900A635EF /* FrameworkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9487E77E2815676900A635EF /* FrameworkListViewController.swift */; };
 		9487E7812815698C00A635EF /* FrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9487E7802815698C00A635EF /* FrameworkCell.swift */; };
 		948CD1EB2812AD5E003DC0C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD1EA2812AD5E003DC0C4 /* AppDelegate.swift */; };
@@ -23,8 +22,6 @@
 		948CD20C2812AD5F003DC0C4 /* AppleFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD20B2812AD5F003DC0C4 /* AppleFrameworkUITests.swift */; };
 		948CD20E2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD20D2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift */; };
 		948CD21B2812ADBA003DC0C4 /* FramewokData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD21A2812ADBA003DC0C4 /* FramewokData.swift */; };
-		94A77A74281EAFAA00CFE6A7 /* FrameworkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A77A73281EAFAA00CFE6A7 /* FrameworkDetailViewController.swift */; };
-		94A77A76281EAFBE00CFE6A7 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A77A75281EAFBE00CFE6A7 /* Detail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +46,6 @@
 		9411D04F285A1EED00A6A1A4 /* FrameworkDetailViewModelSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModelSwiftUI.swift; sourceTree = "<group>"; };
 		9411D050285A1EED00A6A1A4 /* SafariView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		941506022843B5A0000B38EF /* FrameworkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewModel.swift; sourceTree = "<group>"; };
-		941506042843B5AA000B38EF /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
 		9487E77E2815676900A635EF /* FrameworkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewController.swift; sourceTree = "<group>"; };
 		9487E7802815698C00A635EF /* FrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCell.swift; sourceTree = "<group>"; };
 		948CD1E72812AD5E003DC0C4 /* AppleFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +61,6 @@
 		948CD20B2812AD5F003DC0C4 /* AppleFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITests.swift; sourceTree = "<group>"; };
 		948CD20D2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		948CD21A2812ADBA003DC0C4 /* FramewokData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramewokData.swift; sourceTree = "<group>"; };
-		94A77A73281EAFAA00CFE6A7 /* FrameworkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewController.swift; sourceTree = "<group>"; };
-		94A77A75281EAFBE00CFE6A7 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				9487E77E2815676900A635EF /* FrameworkListViewController.swift */,
-				94A77A73281EAFAA00CFE6A7 /* FrameworkDetailViewController.swift */,
 				9487E7802815698C00A635EF /* FrameworkCell.swift */,
 				9411D04E285A1EED00A6A1A4 /* FrameworkDetailView.swift */,
 				9411D050285A1EED00A6A1A4 /* SafariView.swift */,
 				948CD1F02812AD5E003DC0C4 /* Main.storyboard */,
-				94A77A75281EAFBE00CFE6A7 /* Detail.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -120,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				941506022843B5A0000B38EF /* FrameworkListViewModel.swift */,
-				941506042843B5AA000B38EF /* FrameworkDetailViewModel.swift */,
 				9411D04F285A1EED00A6A1A4 /* FrameworkDetailViewModelSwiftUI.swift */,
 			);
 			path = ViewModel;
@@ -285,7 +276,6 @@
 				948CD1F72812AD5F003DC0C4 /* LaunchScreen.storyboard in Resources */,
 				948CD1F42812AD5F003DC0C4 /* Assets.xcassets in Resources */,
 				948CD1F22812AD5E003DC0C4 /* Main.storyboard in Resources */,
-				94A77A76281EAFBE00CFE6A7 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +307,6 @@
 				941506032843B5A0000B38EF /* FrameworkListViewModel.swift in Sources */,
 				948CD21B2812ADBA003DC0C4 /* FramewokData.swift in Sources */,
 				9487E7812815698C00A635EF /* FrameworkCell.swift in Sources */,
-				94A77A74281EAFAA00CFE6A7 /* FrameworkDetailViewController.swift in Sources */,
-				941506052843B5AA000B38EF /* FrameworkDetailViewModel.swift in Sources */,
 				9487E77F2815676900A635EF /* FrameworkListViewController.swift in Sources */,
 				9411D051285A1EED00A6A1A4 /* FrameworkDetailView.swift in Sources */,
 			);
