@@ -19,33 +19,7 @@ struct GithubProfile: Codable {
     }
 }
 
-// App Model < -   JSON :  (Decoding)
 
-let configuration = URLSessionConfiguration.default
-let session = URLSession(configuration: configuration)
-
-let url = URL(string: "https://api.github.com/users/cafielo")!
-
-let task = session.dataTask(with: url) { data, response, error in
-    guard let httpResponse = response as? HTTPURLResponse,
-          (200..<300).contains(httpResponse.statusCode) else {
-        print("--> response \(response)")
-        return
-    }
-    
-    guard let data = data else { return }
-    // data -> GithubProfile
-    
-    do  {
-        let decoder = JSONDecoder()
-        let profile = try decoder.decode(GithubProfile.self, from: data)
-        print("profile: \(profile)")
-    } catch let error as NSError {
-        print("error: \(error)")
-    }
-}
-
-task.resume()
 
 
 
