@@ -1,0 +1,8 @@
+app_identifier("com.joonwon.EmotionDiary") # The bundle identifier of your app
+apple_id("joonwonlee@kaist.ac.kr") # Your Apple email address
+
+itc_team_id("117143961") # App Store Connect Team ID
+team_id("C98APEMDUR") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
