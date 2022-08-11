@@ -37,7 +37,7 @@ final class CustomBarItem: UIButton {
     
     private func setupStyle() {
         self.titleLabel?.font = .systemFont(ofSize: 20, weight: .bold)
-        self.titleLabel?.textColor = .white
+        self.setTitleColor(.white, for: .normal)
         self.imageView?.tintColor = .white
     }
     
